@@ -121,7 +121,7 @@ def create_random_data():
     add_order_products()
 
 
-###################### RETREIVING DATA #########################
+###################### RETREIVING AND QUERYING DATA #########################
 
 def get_all_customers():
     customers=Customer.query.all()
